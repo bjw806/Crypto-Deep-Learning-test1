@@ -8,6 +8,7 @@ from matplotlib.gridspec import GridSpec
 from pandas.core.base import DataError
 from pandas.core.frame import DataFrame
 import talib
+import ccxt
 
 data_1m = genfromtxt('../financial_data/binance_1m.csv', delimiter=',' ,dtype=str)
 
