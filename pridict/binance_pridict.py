@@ -18,7 +18,7 @@ model.load_weights(weights_path)
 test_path = '../data/validation'
 data_path = '../data'
 
-request_client = RequestClient(api_key='3vldXTBVRHRM9C3cXdWBvfa4wkyOaVFjbL91dpYfyYonXsoMraO1MXcrXaxZ8vSW', secret_key='kPL3Gl06MRTZ6tfkwWTJN9ZXT5sEQhpyV9hE5kOL0cw4OgVTPO9WadYLOagQmWx3')
+request_client = RequestClient(api_key='Your-api-Key', secret_key='Your-secret-Key')
 
 def predict(file):
   x = load_img(file, target_size=(img_width,img_height))
